@@ -1,0 +1,27 @@
+FAZ AI - VERSAO PARA ESTUDAR C BASICO
+
+1. Extraia TODO o ZIP para uma pasta.
+2. Abra essa pasta no VS Code.
+3. No terminal PowerShell, execute: .\compilar.bat
+4. Depois execute: .\Faz_Ai.exe
+
+Requer GCC/MinGW-w64 no PATH. O arquivo .exe antigo nao faz parte desta
+versao: e necessario compilar os fontes novos. A biblioteca bcrypt faz
+parte do Windows; o compilador precisa ter os headers e a import library.
+
+Leia README.md para as melhorias, menus, organizacao, testes e limites.
+Os dados enviados estao incluidos com os nomes usados pelo programa:
+usuarios.txt, profissionais.txt e tickets.txt.
+As senhas sao as mesmas, mas agora estao armazenadas como hash.
+Nao substitua usuarios.txt pelo arquivo antigo para executar esta versao.
+Use uma execucao por vez e execute pela pasta principal, onde ficam os arquivos .txt.
+
+ORGANIZACAO
+src: arquivos .c do programa.
+include: cabecalho faz_ai.h.
+testes: testes automatizados, separados do programa principal.
+Os dados e compilar.bat ficam na pasta principal.
+
+GUIA_DE_ESTUDO.md mostra onde aparecem variaveis, entrada/saida,
+if/else, switch, for, while, do while, vetores, contador e acumulador.
+A logica usa matrizes de texto; a seguranca permanece em modulo de apoio.

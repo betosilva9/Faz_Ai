@@ -1,0 +1,2 @@
+0001|wagner@gmail.com|Eletricista|Recife|eu quero|CONCLUIDO|wagner@gmail.com|av trinta de outubro, numero 305, bairro jsp, complemento casa
+0002|wagner@gmail.com|Eletricista|Recife|asdfçaksuhdçailshdoçauih|ABERTO|SEM_PROFISSIONAL|Av trinta de outubro, numero 305, bairro jsp, complemento casa
